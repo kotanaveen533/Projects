@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIT THE 2nd</title>
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .header{
+    min-height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('/images/image7.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+}
+.header h1{
+    font-size: 48px;
+    margin: 20px;
+}
+.logo{
+  width: 100px;
+    height: 100px;
+    /* background:linear-gradient(rgba(0, 0, 25, 0.35),rgba(0, 0, 25, 0.35)), url('/images/logo.png'); */
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+}
+.logo img{
+    width: 100%;
+      height: 100px;
+     border-radius: 50%;
+      font-size: 24px;
+      margin-left: 20px;
+      color: black;
+      margin-top: 10px;
+}
+
+
+    .containt{
+        padding: 20px;
+    }
+    .movie-details{
+        margin-top: 20px;
+    }
+    .movie-details table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .movie-details th, .movie-details td{
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    .movie-details th{
+        background-color: #f2f2f2;
+    }
+    .synopsis{
+        margin-top: 20px;
+    }
+    .footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+    </style>
+</head>
+<body>
+    <section class="header">
+        <div class="logo">
+            <img src="/images/logo.png" alt="Logo" width="100%">
+        </div>
+        <!-- <h1>HIT THE 2nd CASE</h1> -->
+         <h1>Freshworks Movie Portal</h1>
+        <!-- <hr> -->
+    </section>
+    <div class="containt">
+        <h2>HIT THE 2nd CASE</h2>
+        <img src="images/image8.jpg" alt="Latest Movie" width="400px">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/f8tXW2m3P20?si=7rQdP89AUxKTBfwv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="movie-details">
+            <table border="1" cellspacing="0" cellpadding="10" style="margin-top: 20px;" class="hit-table">
+            <tr>
+                <th>Director</th>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <th>Cast</th>
+                <td>Jane Smith, Tom Johnson, Emily Davis</td>
+            </tr>
+            <tr>
+                <th>Genre</th>
+                <td>Action, Thriller</td>
+            </tr>
+            <tr>
+                <th>Release Date</th>
+                <td>March 15, 2024</td>
+            </tr>
+            <tr>
+                <th>Rating</th>
+                <td>8.5/10</td>
+            </tr>
+        </table>
+        </div>
+        <div>
+            <h3>Synopsis</h3>
+            <p>"Hit the 2nd Case" is a gripping sequel to the original "Hit the Case," where Detective John Smith faces his most challenging case yet. Set in a bustling metropolis, the film delves into a complex web of crime, corruption, and intrigue. As John investigates a series of high-profile murders, he uncovers a sinister conspiracy that threatens to shake the very foundations of the city. With intense action sequences, unexpected twists, and a compelling storyline, "Hit the 2nd Case" keeps audiences on the edge of their seats from start to finish.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Movie Database. All rights reserved.</p>
+    </footer>
+</body>
+</html>
